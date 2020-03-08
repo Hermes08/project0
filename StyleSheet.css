@@ -1,34 +1,28 @@
 
-
 h1 {
   text-align: center;
-  font-size: 1em;
-  color: #008;
-  margin-bottom: .3em;
-  text-decoration: underline;
 }
 
-table {
-  margin: .3em;
-  width: 290px;
-}
 
-th {
-  padding: .2em;
-}
+.row > div {
+  padding-left: :20px;
+  background-color: #f4e1d2;
+  border: 3px solid black;
+  }
 
-td {
-  padding-left: .5em;
-  padding-right: .5em;
-  border: 1px solid #900;
-  background-color: #ffc;
-}
+  .image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
 
-#trHeader {
-  text-decoration: underline;
-  color: #900;
-}
+  @media (min-width : 801px){
+  body {
+    background-color: #f4e1d2
+  } }
 
-.centerCell {
-  text-align: center;
-}
+  @media (max-width : 700px){
+  body {
+    background-color: #bd5734
+  } }

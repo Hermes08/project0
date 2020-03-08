@@ -1,0 +1,50 @@
+$colors : blue;
+
+h1 {
+ color: $colors
+
+
+};
+
+div {
+  ul {
+    color : $colors
+  }
+}
+
+
+%message {
+  font-family : cursive;
+  font-size: 18px;
+  font-weight: bold;;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px;
+}
+
+.good{
+  @extend %message;
+  background-color: green;
+
+}
+
+.bad{
+  @extend %message;
+  background-color: yellow;
+
+}
+
+
+.error{
+  @extend %message;
+  background-color: red;
+
+}
+
+
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
